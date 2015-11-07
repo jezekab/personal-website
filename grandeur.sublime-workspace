@@ -1,0 +1,1249 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bu",
+				"bundleConfigs"
+			],
+			[
+				"md",
+				"mdDialog"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/Menu.jsx",
+			"settings":
+			{
+				"buffer_size": 1264,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/SideMenu.jsx",
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/MenuBar.jsx",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/styles/menu.less",
+			"settings":
+			{
+				"buffer_size": 10723,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/App.jsx",
+			"settings":
+			{
+				"buffer_size": 761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/hutts/Code/cabal-splash/pjt.com/styles/site.min.css?20150508.css",
+			"settings":
+			{
+				"buffer_size": 96606,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 249.0,
+		"last_filter": "package inst",
+		"selected_items":
+		[
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"paca",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"markd",
+				"Build With: Markdown"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git dif",
+				"Git: Diff Current File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/dist",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/dist/scripts",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/dist/styles",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp/tasks",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/styles",
+		"/home/hutts/Code/cabal-splash/pjt.com",
+		"/home/hutts/Code/cabal-splash/pjt.com/favicon",
+		"/home/hutts/Code/cabal-splash/pjt.com/js",
+		"/home/hutts/Code/cabal-splash/pjt.com/js/site",
+		"/home/hutts/Code/cabal-splash/pjt.com/styles",
+		"/home/hutts/Code/cabal-splash/pjt.com/styles/site"
+	],
+	"file_history":
+	[
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/TopSpacer.jsx",
+		"/home/hutts/Code/cabal-splash/pjt.com/js/site/sidebar.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/dist/scripts/main.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/App.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/MenuBar.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/Blackout.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/MenuItem.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp/config.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/package.json",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/dist/scripts/libs.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp/tasks/browserify.js",
+		"/home/hutts/Code/cabal-splash/pjt.com/js/site/site.js",
+		"/home/hutts/Code/cabal-splash/pjt.com/favicon/favicon-32x32.png",
+		"/home/hutts/Code/cabal-splash/pjt.com/index.html",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/functions.php",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/main.jsx",
+		"/home/hutts/Code/cabal-splash/pjt.com/styles/site.min.css?20150508.css",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/styles/menu.less",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/header.php",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/footer.php",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/index.php",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/Main.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp/tasks/watch.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp/tasks/watchify.js",
+		"/home/hutts/.config/sublime-text-3/Packages/LESS/README.md",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/styles/main.less",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/BlogHeader.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/PostList.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/SideMenu.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/MobileMenuHeader.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp/tasks/less.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp/tasks/browserSync.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulpfile.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/libs.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/dist/styles/menu.css",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/PostEntry.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/SinglePost.jsx",
+		"/home/hutts/Code/cabal-splash/pjt.com/styles/site/modules/ionicons.min.css",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/styles/header.less",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/actions/PostActions.js",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/SiteMenu.jsx",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/dist/styles/main.css",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/node_modules/bootstrap/less/alerts.less",
+		"/home/hutts/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/readme.md",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/style.css",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/node_modules/bootstrap/less/bootstrap.less",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/node_modules/bootstrap/dist/css/bootstrap.css.map",
+		"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/.gitignore",
+		"/home/hutts/Code/cabal-splash/react-wp/package.json",
+		"/home/hutts/Code/cabal-splash/react-wp/gulpfile.js",
+		"/home/hutts/Code/cabal-splash/react-wp/functions.php",
+		"/home/hutts/Code/cabal-splash/react-wp/src/scripts/components/PostEntry.jsx",
+		"/home/hutts/Code/cabal-splash/react-wp/index.php",
+		"/home/hutts/Code/cabal-splash/react-wp/src/scripts/main.jsx",
+		"/home/hutts/Code/cabal-splash/angular-react-wordpress-theme/style.css",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_10_07_163531_create_bookers_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Models/Bookers.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_09_30_183546_create_events_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/extension.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_10_07_161106_create_bookings_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/tickets/_templates/tickets.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/tickets/partials/modals.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Models/Bookings.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Models/Events.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/tickets/model.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/bookings/message.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/bookings/model.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/form.blade.php",
+		"/home/hutts/Code/bemac/extensions/platform/attributes/src/Handlers/DataHandlerInterface.php",
+		"/home/hutts/Code/bemac/extensions/platform/operations/themes/admin/default/packages/platform/operations/views/extensions/_templates/controller.blade.php",
+		"/home/hutts/Code/bemac/extensions/platform/operations/themes/admin/default/packages/platform/operations/views/extensions/manage.blade.php",
+		"/home/hutts/Code/bemac/extensions/platform/operations/src/Controllers/Admin/ExtensionsController.php",
+		"/home/hutts/Code/bemac/extensions/platform/media/themes/admin/default/packages/platform/media/views/form.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/partials/modals.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/partials/tab-ticketing.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/partials/tab-dashboard.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/tickets/common.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/tickets/message.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/events/message.php",
+		"/home/hutts/Code/bemac/extensions/bemac/ticketing/lang/en/tickets/message.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/users/message.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/artists/message.php",
+		"/home/hutts/Code/bemac/extensions/bemac/artists/database/migrations/2015_09_29_183546_create_artists_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/equipment/database/migrations/2015_10_04_091206_create_equipment_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/categories/message.php",
+		"/home/hutts/Code/bemac/extensions/bemac/equipment/extension.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/tickets/actions.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_10_04_093401_create_sessions_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_09_29_094125_create_classifications_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_09_29_094354_create_categories_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_10_04_093617_create_session_items_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/database/migrations/2015_10_04_135902_create_session_equipment_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/ticketing/database/migrations/2015_09_29_182859_create_tickets_table.php",
+		"/home/hutts/Code/bemac/extensions/bemac/ticketing/extension.php",
+		"/home/hutts/Code/bemac/extensions/platform/users/database/migrations/2012_12_19_034250_migration_platform_users_install_sentinel_social.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/lang/en/sessions/model.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/tickets/grid/partials/grid.blade.php",
+		"/home/hutts/Code/bemac/extensions/platform/operations/themes/admin/default/packages/platform/operations/views/extensions/partials/modals.blade.php",
+		"/home/hutts/Code/bemac/extensions/platform/operations/themes/admin/default/packages/platform/operations/assets/js/extensions/manage.js",
+		"/home/hutts/Code/bemac/extensions/platform/operations/themes/admin/default/packages/platform/operations/assets/js/extensions.js",
+		"/home/hutts/Code/bemac/extensions/platform/operations/themes/admin/default/packages/platform/operations/assets/js/modals.js",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/tickets/index.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/partials/ticket-grid.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/themes/admin/default/packages/bemac/events/views/tickets/grid/index/no_results.blade.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Controllers/Admin/TicketsController.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Providers/TicketsServiceProvider.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Controllers/Frontend/TicketsController.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Validator/Tickets/TicketsValidatorInterface.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Validator/Tickets/TicketsValidator.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Repositories/Tickets/TicketsRepositoryInterface.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Repositories/Tickets/TicketsRepository.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Models/Tickets.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Models/SessionItems.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Handlers/Tickets/TicketsEventHandlerInterface.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Handlers/Tickets/TicketsEventHandler.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Handlers/Tickets/TicketsDataHandlerInterface.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Handlers/Tickets/TicketsDataHandler.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/README.md",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Widgets/Tickets.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Controllers/Admin/SessionItemsController.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Widgets/Events.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Providers/SessionItemsServiceProvider.php",
+		"/home/hutts/Vagrant/provision/default.yml",
+		"/home/hutts/Vagrant/Vagrantfile",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Providers/SessionEquipmentServiceProvider.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Providers/ClassificationsServiceProvider.php",
+		"/home/hutts/Code/bemac/extensions/bemac/events/src/Models/Classifications.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/gulp",
+			"<current file>",
+			"<open folders>",
+			"<current file>,<open files>",
+			"<current file>",
+			"/home/hutts/Code/bemac/extensions/bemac/events",
+			"<open files>",
+			"/home/hutts/Code/atmlink/app/Handlers/Commands,<open folders>",
+			"/home/hutts/Code/atmlink/app/Handlers/Commands",
+			"/home/hutts/Code/bemac/workbench/bemac/events",
+			"/home/hutts/Code/bemac/workbench/bemac/events/themes/admin/default/packages/bemac/events/views",
+			"/home/hutts/Code/bemac/workbench/bemac/events",
+			"/home/hutts/Code/bemac/workbench/bemac/events/themes/admin/default/packages/bemac/events/views",
+			"/home/hutts/Code/bemac/workbench/bemac/events",
+			"/home/hutts/Code/bemac/workbench/bemac/events/themes/admin/default/packages/bemac/events",
+			"/home/hutts/Code/bemac/workbench/bemac/events",
+			"<current file>,<open folders>",
+			"<current file>",
+			"/home/hutts/Code/mevu-frontend/app/src/control",
+			"<open folders>",
+			"<current file>",
+			"/home/hutts/Code/mevu-frontend/app/bower_components/angular-material/modules/js",
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ome</a></li>\n			            <li><a href=\"\">About</a></li>\n			            <li><a href=\"\" target=\"_blank\">Tumb",
+			"jquery",
+			"pjt-view",
+			" top",
+			".patty",
+			"\n.patty {\n    position: relative;\n    width: 2.8rem;\n    height: .2rem;\n    border-radius: 2px;\n    background: #000;\n    -webkit-transition: all linear .3s;\n    transition: all linear .3s\n}\n\n.patty:before,\n.patty:after {\n    -webkit-transition: all .3s ease;\n    transition: all .3s ease;\n    position: absolute;\n    display: block;\n    width: 100%;\n    height: .2rem;\n    border-radius: 2px;\n    background: #000;\n    content: ''\n}\n\n.patty:before {\n    top: -0.7rem\n}\n\n.patty:after {\n    top: .7rem\n}\n\n.pjt-view.menu-open .menu-toggle .patty:before,\n.pjt-view.menu-open .menu-toggle .patty:after {\n    width: 1.12rem;\n    left: -0.1rem\n}\n\n.pjt-view.menu-open .menu-toggle .patty:before {\n    top: -0.45rem;\n    -webkit-transform: rotate(-45deg);\n    -ms-transform: rotate(-45deg);\n    transform: rotate(-45deg)\n}\n\n.pjt-view.menu-open .menu-toggle .patty:after {\n    top: 0.45rem;\n    -webkit-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    transform: rotate(45deg)\n}\n\n.icon-external-link {\n    background: url('../images/icons/external-link-32.png') left top no-repeat;\n    background-size: 100% 100%;\n    width: 0.9rem;\n    height: 0.9rem;\n    display: inline-block\n}\n",
+			"pjt-menu",
+			".patty",
+			"onepage-pagination",
+			"SideMenu",
+			"test",
+			"devMode",
+			"class",
+			"\n	",
+			"bookings",
+			"Bookings",
+			"Artist",
+			"artist",
+			"Artist",
+			"categories",
+			"Categories",
+			"',",
+			"operations",
+			"/::",
+			"operations",
+			"sessions",
+			"tickets",
+			"ticketing",
+			"vccw",
+			"Events\\Events",
+			"event",
+			"<option",
+			"<option>",
+			"$ticket",
+			"$tickets",
+			"tickets",
+			"getEquipment",
+			"tickets()",
+			"getTickets",
+			"boxoffices",
+			"table",
+			"**\\",
+			"** ",
+			"Software, startups & staffing.",
+			" --",
+			"highestThresholdRate",
+			"highestThreshold",
+			"events/partials/components",
+			"trans('bemac/events::",
+			"trans(\"bemac/events::",
+			"events::events/",
+			"bemac/bemac/",
+			"events::extensions",
+			"platform/operations::",
+			"admin.bemac.events.events.all",
+			"md-grid",
+			"\">\n",
+			"md-default-theme",
+			"                <",
+			"md-icon-float",
+			"3",
+			"mdThemingProvider",
+			"section",
+			"theming",
+			"addClass",
+			"vm",
+			"fling",
+			"md",
+			"scale",
+			"fling",
+			"md-scale",
+			"fling",
+			"md-fling",
+			"md-scale",
+			"scale",
+			"md-fab",
+			"md-fab-speed-dial",
+			"fonts",
+			"*",
+			"height",
+			"closeDialog",
+			".hide()",
+			"closeDialog",
+			"/fonts",
+			"../fonts",
+			"fonts",
+			"../fonts",
+			"Fonts",
+			"fonts"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Tickets\\Tickets",
+			"session",
+			"$tickets",
+			"$ticket",
+			"boxoffice",
+			"trans('bemac/events::events/",
+			"trans(\"bemac/events::events",
+			"events::",
+			"bemac/",
+			"bemac/events::events",
+			"bemac/events::",
+			"mv",
+			"mevu-fling",
+			"mevu-scale",
+			"",
+			"fonts",
+			"/fonts",
+			"assets/fonts",
+			"fonts",
+			"Fonts"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/Menu.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"highlight_line": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 51
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/SideMenu.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 29
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/MenuBar.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 81
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/styles/menu.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10723,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1526,
+								1526
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 32
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 2712.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components/App.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								651,
+								651
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 29
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/hutts/Code/cabal-splash/pjt.com/styles/site.min.css?20150508.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94739,
+								94739
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 116826.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 86.0
+	},
+	"output.markdown":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "",
+	"project": "grandeur.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "getSlug",
+		"selected_items":
+		[
+			[
+				"getSlug",
+				"getSlug"
+			],
+			[
+				"",
+				"!=="
+			]
+		],
+		"width": 1002.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_char_search_command": "vi_t",
+		"_vintageous_last_character_search": "-",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/home/hutts/Vagrant/wp/www/wordpress/wp-content/themes/react-wp/src/scripts/components"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 377.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
