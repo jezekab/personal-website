@@ -221,6 +221,8 @@ section#contact {
   display: table;
   text-align: center;
   width: 100%;
+  background-image: url("../images/bg2.jpg");
+  background-position: center;
 
   article {
     display: table-cell;
@@ -228,25 +230,29 @@ section#contact {
 
     h3 {
       color: white;
-      font-size: 80px;
+      font-size: 70px;
       margin: 0;
     }
 
     p {
-      margin-top: 0px;
       font-size: 20px;
+      margin-top: -10px;
     }
 
     img {
       width: 24px;
+      margin: 10px 2px 10px 0;
     }
 
     form {
 
+      margin-top: 40px;
+
+
       input {
         font-family: $text_font;
         display: block;
-        width: 600px;
+        width: 700px;
         padding: 10px;
         color: grey;
         font-size: 16px;
@@ -261,7 +267,7 @@ section#contact {
         padding: 10px;
         display: block;
         margin: auto;
-        width: 600px;
+        width: 700px;
         height: 140px;
         border: 0px;
       }
@@ -270,7 +276,11 @@ section#contact {
         background-color: $blue;
         color: white;
         text-transform: uppercase;
-        width: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: $decor_font;
+        width: 720px;
+
       }
     }
   }
@@ -330,6 +340,13 @@ section#contact {
           font-size: 14px;
           width: 75%;
           height: 100px;
+        }
+
+        #send {
+          box-sizing: content-box;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 75%;
         }
       }
     }
@@ -407,5 +424,20 @@ section#contact {
       margin-top: 0px;
       font-size: 16px;
     }
+  }
+
+  section#contact {
+    article {
+
+      h3 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+        margin: 0 20px;
+      }
+
+    }
+
   }
 }

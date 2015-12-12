@@ -174,43 +174,51 @@ span.code {
 section#contact {
   display: table;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  background-image: url("../images/bg2.jpg");
+  background-position: center; }
   section#contact article {
     display: table-cell;
     vertical-align: middle; }
     section#contact article h3 {
       color: white;
-      font-size: 80px;
+      font-size: 70px;
       margin: 0; }
     section#contact article p {
-      margin-top: 0px;
-      font-size: 20px; }
+      font-size: 20px;
+      margin-top: -10px; }
     section#contact article img {
-      width: 24px; }
-    section#contact article form input {
-      font-family: "Open Sans", sans-serif;
-      display: block;
-      width: 600px;
-      padding: 10px;
-      color: grey;
-      font-size: 16px;
-      border: 0px;
-      margin: 10px auto 10px auto; }
-    section#contact article form textarea {
-      font-family: "Open Sans", sans-serif;
-      color: grey;
-      font-size: 16px;
-      padding: 10px;
-      display: block;
-      margin: auto;
-      width: 600px;
-      height: 140px;
-      border: 0px; }
-    section#contact article form #send {
-      background-color: #0e8d98;
-      color: white;
-      text-transform: uppercase;
-      width: 100px; }
+      width: 24px;
+      margin: 10px 2px 10px 0; }
+    section#contact article form {
+      margin-top: 40px; }
+      section#contact article form input {
+        font-family: "Open Sans", sans-serif;
+        display: block;
+        width: 700px;
+        padding: 10px;
+        color: grey;
+        font-size: 16px;
+        border: 0px;
+        margin: 10px auto 10px auto; }
+      section#contact article form textarea {
+        font-family: "Open Sans", sans-serif;
+        color: grey;
+        font-size: 16px;
+        padding: 10px;
+        display: block;
+        margin: auto;
+        width: 700px;
+        height: 140px;
+        border: 0px; }
+      section#contact article form #send {
+        background-color: #0e8d98;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Montserrat", sans-serif;
+        width: 720px; }
 
 @media (max-width: 840px), (max-height: 520px) {
   h1 {
@@ -248,7 +256,12 @@ section#contact {
   section#contact article form textarea {
     font-size: 14px;
     width: 75%;
-    height: 100px; } }
+    height: 100px; }
+  section#contact article form #send {
+    box-sizing: content-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 75%; } }
 @media (max-width: 570px), (max-height: 400px) {
   #main_links {
     display: none; }
@@ -303,6 +316,12 @@ section#contact {
     font-size: 16px; }
   section#about article p {
     margin-top: 0px;
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  section#contact article h3 {
+    font-size: 28px; }
+  section#contact article p {
+    font-size: 14px;
+    margin: 0 20px; } }
 
 /*# sourceMappingURL=style.css.map */
