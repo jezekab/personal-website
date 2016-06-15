@@ -1,7 +1,91 @@
+/* Ripple Out */
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0; } }
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0; } }
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative; }
+
+.hvr-ripple-out:before {
+  content: '';
+  position: absolute;
+  border: #f0ff00 solid 6px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s; }
+
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out; }
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden; }
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #f0ff00;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0; }
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #353535;
   margin: 0px; }
+
+a.button {
+  margin-top: 0px;
+  background-color: #f0ff00;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Chivo", sans-serif;
+  color: #353535;
+  font-size: 16px;
+  padding: 15px 30px;
+  display: inline-block; }
 
 #mobile_links {
   display: none; }
@@ -51,9 +135,8 @@ nav ul {
   nav ul li {
     display: inline;
     text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Chivo", sans-serif;
+    font-size: 16px;
     color: white;
     padding: 2px 0px 2px 0px; }
     nav ul li a {
@@ -65,7 +148,6 @@ nav ul {
       -o-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out; }
     nav ul li a:hover {
-      background-color: #0e8d98;
       -webkit-transition: all 0.5s ease-in-out;
       -moz-transition: all 0.5s ease-in-out;
       -o-transition: all 0.5s ease-in-out;
@@ -83,8 +165,9 @@ nav ul#social_links {
   margin-right: 50px;
   margin-top: 0px; }
   nav ul#social_links li {
-    font-size: 10px;
-    margin: 16px; }
+    font-size: 12px;
+    margin: 16px;
+    line-height: 1.8; }
 
 img#menu {
   display: none; }
@@ -95,7 +178,7 @@ header,
   color: #ffffff; }
 
 header {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/jb-bg.jpg");
   background-position: center;
   display: table;
   width: 100%; }
@@ -111,16 +194,16 @@ header article div {
   text-align: center; }
 
 h1 {
-  font-family: "Pacifico";
+  font-family: "Exo";
   font-weight: 400;
   font-size: 200px;
   margin: 0px;
   padding: 0px;
-  margin-left: -100px;
-  margin-bottom: -84px; }
+  margin-bottom: -60px; }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  color: #353535;
+  font-family: "Chivo", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 60px;
@@ -131,19 +214,31 @@ header p {
   padding-top: 40px;
   font-size: 20px; }
 
-section#about {
-  display: table; }
+section#about, section#portfolio_logos {
+  display: table;
+  width: 100%; }
 
-section#about article {
+section#about article a {
+  color: #353535;
+  text-decoration: none;
+  font-weight: 700; }
+
+section#about {
+  background-color: #e9e9e9; }
+
+section#about article, section#portfolio_logos article, section#portfolio_web article {
   display: table-cell;
   vertical-align: middle;
   width: 75%;
   margin: auto; }
 
-section#about article div {
+section#about article div, section#portfolio_logos article div, section#portfolio_web article div {
   width: 75%;
   margin: auto;
   text-align: center; }
+
+section#portfolio_logos article div {
+  width: 85%; }
 
 section#about article p {
   font-size: 28px; }
@@ -156,13 +251,57 @@ section#about article h4 {
   margin-top: 60px;
   font-size: 28px; }
 
+section#portfolio_web {
+  background-color: lightgrey;
+  display: table;
+  width: 100%; }
+  section#portfolio_web h4 {
+    margin-bottom: 40px; }
+  section#portfolio_web article {
+    margin: auto; }
+  section#portfolio_web div#display_box {
+    width: 190px !important;
+    background-color: transparent;
+    padding: 16px;
+    height: auto; }
+  section#portfolio_web div#display_box img {
+    width: 190px; }
+
+.arrow-up {
+  width: 0 !important;
+  height: 0 !important;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #0e8d98; }
+
+div.description span.exit {
+  color: white;
+  text-align: right !important;
+  font-size: 14px;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  top: 3px; }
+div.description p.category {
+  font-family: "Chivo", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase; }
+div.description div.description_text {
+  background-color: #0e8d98;
+  position: absolute;
+  width: 120px !important;
+  padding: 10px 20px; }
+  div.description div.description_text p {
+    color: white;
+    font-size: 12px; }
+
 h3 {
   color: #0e8d98;
-  font-family: "Pacifico";
+  font-family: "Exo";
   font-weight: 400; }
 
 h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Chivo", sans-serif;
   text-transform: uppercase;
   font-weight: 400; }
 
@@ -175,7 +314,7 @@ section#contact {
   display: table;
   text-align: center;
   width: 100%;
-  background-image: url("../images/bg2.jpg");
+  background-image: url("../images/jb-bg.jpg");
   background-position: center; }
   section#contact article {
     display: table-cell;
@@ -184,11 +323,18 @@ section#contact {
       color: white;
       font-size: 70px;
       margin: 0; }
+    section#contact article h4 {
+      font-size: 20px;
+      margin-top: 0px;
+      color: #0e8d98;
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 20px; }
     section#contact article p {
       font-size: 20px;
       margin-top: -10px; }
     section#contact article img {
-      width: 24px;
+      width: 36px;
       margin: 10px 2px 10px 0; }
     section#contact article form {
       margin-top: 40px; }
@@ -217,20 +363,40 @@ section#contact {
         text-transform: uppercase;
         padding-left: 10px;
         padding-right: 10px;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Chivo", sans-serif;
         width: 720px; }
 
+#display_box {
+  width: 150px !important;
+  height: 150px;
+  background-color: white;
+  display: inline-block;
+  padding: 20px 40px;
+  overflow: hidden; }
+
+#display_box:hover #description {
+  display: block; }
+
+#display_box img {
+  width: 150px; }
+
+#portfolio_logos, #portfolio_web {
+  overflow: hidden; }
+
+@media (max-width: 1111px), (max-height: 520px) {
+  nav ul#social_links {
+    display: none; } }
 @media (max-width: 840px), (max-height: 520px) {
   h1 {
     font-size: 110px;
-    margin: 0px 50px -44px 0px; }
+    margin: 0px 0px -30px 0px; }
 
   h2 {
     font-size: 30px; }
 
   header p {
     margin-top: -10px;
-    font-size: 20px; }
+    font-size: 16px; }
 
   #mobile_links {
     display: none; }
@@ -245,6 +411,25 @@ section#contact {
 
   nav ul#social_links {
     display: none; }
+
+  div#porfolio_logos {
+    padding-top: 40px; }
+
+  section#portfolio_logos h4 {
+    margin-top: 60px; }
+
+  section#portfolio_web article {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+
+  section#portfolio_web h4 {
+    margin-top: 60px; }
+
+  #display_box {
+    padding: 0px 30px;
+    width: 110px !important; }
+    #display_box img {
+      width: 110px; }
 
   section#contact article h3 {
     font-size: 50px; }
@@ -301,10 +486,11 @@ section#contact {
 
   h1 {
     font-size: 60px;
-    margin: 0px 20px -22px 0px; }
+    margin: 0px 0px -16px 0px; }
 
   h2 {
-    font-size: 16px; }
+    font-size: 18px;
+    font-weight: bold; }
 
   he ader p {
     font-size: 14px;
@@ -318,8 +504,20 @@ section#contact {
     margin-top: 0px;
     font-size: 16px; }
 
+  section#portfolio_logos h4 {
+    margin-top: 60px; }
+
+  div#porfolio_logos {
+    padding-top: 40px; }
+
+  #display_box {
+    padding: 0px 20px;
+    width: 100px !important; }
+    #display_box img {
+      width: 100px; }
+
   section#contact article h3 {
-    font-size: 28px; }
+    font-size: 42px; }
   section#contact article p {
     font-size: 14px;
     margin: 0 20px; } }

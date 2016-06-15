@@ -5,16 +5,18 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="scripts/jquery-2.1.4.min.js"></script>
+
+  <link rel="stylesheet" href="scripts/font-awesome-4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 
   <script type="text/javascript" src="scripts/script.js"></script>
 
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Exo:900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Chivo:400,900' rel='stylesheet' type='text/css'>
 
   <link rel="shortcut icon" href="favicon.ico" />
 
-  <title>Jessica Barron - Aspiring something or other</title>
+  <title>Jessica Barron - Designer/Developer</title>
 
 </head>
 
@@ -25,6 +27,10 @@
       <li><a href="#">Home</a>
       </li>
       <li><a href="#about">About</a>
+      </li>
+      <li><a href="#portfolio_logos">Portfolio</a>
+      </li>
+      <li><a href="#contact">Contact</a>
       </li>
       <!-- <li>Contact</li> -->
       <li id="social"><a href="https://twitter.com/jezekab">Twitter</a>
@@ -37,25 +43,27 @@
 
     <div id="bar"></div>
     <div id="icon">
-      <img id="logo" src="images/logo.png" alt="logo" />
+      <img id="logo" src="images/logo-blue.png" alt="logo" />
     </div>
 
     <img id="menu" src="images/menu.png" alt="menu" />
 
     <ul id="main_links">
-      <li><a href="#" class="scroll">Home</a>
+      <li><a href="#about" class="scroll hvr-underline-from-left">About</a>
       </li>
-      <li><a href="#about" class="scroll">About</a>
+      <li><a href="#portfolio_logos" class="scroll hvr-underline-from-left">Portfolio</a>
+      </li>
+      <li><a href="#contact" class="scroll hvr-underline-from-left">Contact</a>
       </li>
       <!-- <li>Contact</li> -->
     </ul>
 
     <ul id="social_links">
-      <li><a href="https://twitter.com/jezekab">Twitter</a>
+      <li><a href="https://twitter.com/jezekab" class="hvr-underline-from-left" >Twitter</a>
       </li>
-      <li><a href="https://instagram.com/jezekab">Instagram</a>
+      <li><a href="https://instagram.com/jezekab" class="hvr-underline-from-left">Instagram</a>
       </li>
-      <li><a href="https://twitter.com/designerbarron">Facebook</a>
+      <li><a href="https://twitter.com/designerbarron" class="hvr-underline-from-left">Facebook</a>
       </li>
     </ul>
 
@@ -64,9 +72,11 @@
   <header class="toWindowSize scroll">
     <article>
       <div>
-        <h1 class="animate">Jessica</h1>
+        <h1 class="animate">jessica</h1>
         <h2>Barron</h2>
-        <p>Aspiring designer, <span class="code">&lt;developer /&gt;</span> &#38; something or other.</p>
+        <p>Designer, developer & something or other.</p>
+
+        <a class="button hvr-ripple-out" href="#portfolio_logos">View my work</a>
       </div>
     </article>
   </header>
@@ -75,9 +85,81 @@
     <article>
       <div>
         <h3>Hello world.</h3>
-        <p>My name's <strong>Jessica</strong>. I'm a student of Computer Science and Interactive Design at the Queensland University of Technology. I love <span class="code">&lt;web /&gt;</span> projects.</p>
-        <h4>I'll add a portfolio... one day.</h4>
+        <p>My name's <strong>Jessica</strong>. I'm a student of Computer Science and Interactive Design at the Queensland University of Technology, currently offering my services as a freelancer. I love <span class="code">&lt;web /&gt;</span> projects.</p>
+        <h4>Take a look at some of my work:</h4>
       </div>
+
+    </article>
+  </section>
+
+  <section id="portfolio_logos" class="toWindowSize scroll">
+    <article>
+      <div>
+        <h4><i class="fa fa-file"></i>&nbsp;&nbsp;Logos & Iconography</h4>
+
+        <div id="porfolio_logos">
+          <div id="display_box"><img src="images/portfolio/logo1.png" alt="a_logo">
+            <!-- <div class="description">
+              <div class="arrow-up"></div>
+              <div class="description_text">
+                <span class="exit">x</span>
+                <p class="category">
+                  Illustration
+                </p>
+                <p>
+                  For Medium series "Zero to Deep Learning with Scala" by Adam Hibble.
+                </p>
+              </div>
+            </div> -->
+          </div>
+          <div id="display_box"><img src="images/portfolio/logo3.png" alt="a_logo">
+            <!-- <div class="description">
+              <div class="arrow-up"></div>
+              <div class="description_text">
+                <span class="exit">x</span>
+                <p class="category">
+                  Logo
+                </p>
+                <p>
+                  For a series of events run by QUT Starters.
+                </p>
+              </div>
+            </div> -->
+          </div>
+          <div id="display_box"><img src="images/portfolio/logo4.png" alt="a_logo"></div>
+          <div id="display_box"><img src="images/portfolio/logo5.png" alt="a_logo"></div>
+          <div id="display_box"><img src="images/portfolio/logo2.png" alt="a_logo"></div>
+          <div id="display_box" ><img src="images/portfolio/logo6.png" alt="a_logo"></div>
+          <div style="clear: both">
+
+          </div>
+
+        </div>
+      </div>
+
+    </article>
+  </section>
+
+  <section id="portfolio_web" class="toWindowSize scroll">
+    <article>
+      <div>
+        <h4><i class="fa fa-file"></i>&nbsp;&nbsp;Web Work</h4>
+
+        <div id="porfolio_web">
+          <div id="display_box"><img src="images/portfolio/screenshot1.png" alt="a_logo"></div>
+          <div id="display_box"><img src="images/portfolio/screenshot2.png" alt="a_logo"></div>
+          <div id="display_box"><img src="images/portfolio/screenshot3.png" alt="a_logo"></div>
+          <div id="display_box"><img src="images/portfolio/screenshot4.png" alt="a_logo"></div>
+          <div id="display_box"><img src="images/portfolio/screenshot5.png" alt="a_logo"></div>
+          <div id="display_box"><img src="images/portfolio/screenshot6.png" alt="a_logo"></div>
+
+          <div style="clear: both">
+
+          </div>
+
+        </div>
+      </div>
+
     </article>
   </section>
 
@@ -85,18 +167,18 @@
   <section id="contact" class="toWindowSize">
     <article>
       <h3>Contact Me?</h3>
-      <p>I'm down for design, <span class="code">&lt;web /&gt;</span> & other cool projects.</p>
+      <!--<p>I'm down for design, <span class="code">&lt;web /&gt;</span> & other cool projects.</p>
 
-      <form>
-        <!--<div id="round">
-        </div>-->
+      <form action="form.php" method="POST">
         <input name="email" placeholder="Your email here..." type="text" required >
         <textarea name="message" placeholder="Your message here..." required></textarea>
         <input name="Hello" id="send" type="submit" value="Send">
 
-      </form>
-      <br>
-      <!--<p>Or contact me on social media:</p>-->
+      </form>-->
+      <!-- <h4 id='sent'>
+        Coming soon! How about following me on social media?
+      </h4>" -->
+
 
       <a href="https://www.linkedin.com/in/jessica-barron-37484095"><img alt="linkedin" src="images/social/linkedin.png"></a>
       <a href="https://www.facebook.com/designerbarron/"><img alt="facebook" src="images/social/facebook.png"></a>
